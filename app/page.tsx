@@ -1,5 +1,7 @@
 import { client } from "@/discord.server";
 
+export const dynamic = 'force-dynamic';
+
 export default async function Page() {
   const botTag = client.user?.tag;
 
